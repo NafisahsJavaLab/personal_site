@@ -65,6 +65,7 @@ header{
 
 .tab-links a{
     text-decoration: none;
+    color: black;
     
 }
 
@@ -100,4 +101,27 @@ blockquote{
     margin-right: 20px;
     font-style: italic;
     font-size: larger;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 30vh;
+    margin-left:auto;
+   margin-top: -120px;
+      
+}
+
+.text{
+    color: white;
+    line-height: 30px;
+    display: flexbox;
+    
+
+}
+
+h2{
+    text-align: center;
+    color: white;
 }
