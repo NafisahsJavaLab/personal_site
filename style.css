@@ -1,20 +1,19 @@
 .image-container{
     display: flex;
-    border: 2px solid white;
-    align-content:center;
-    width: 30vw;
-    height: 40vh;
-    margin-left: auto;
-    
-    
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+   
+ 
 }
 
-img .home {
-    width: 100%;
-    height: auto;
-   
-    
-   
+
+img.home {
+    width: 250px;
+    top:550px;
+    right:150px;
+    position: absolute;
+    border:dashed 10px #CA8E82;     
    
 }
 
@@ -31,6 +30,7 @@ h1{
     align-content: center;
     justify-content: center;
     font-size: 90px;
+    
 }
 
 header{
@@ -57,7 +57,7 @@ header{
 }
 
 .tab-links li{
-    margin-left: 10px;
+    margin-left: 2px;
     
 
 }
@@ -66,41 +66,60 @@ header{
 .tab-links a{
     text-decoration: none;
     color: black;
-    
+    margin-right: 20px;
+    transition: 0.3s;  
+}
+
+.tab-links a.active{
+    border-bottom: 3px solid #F2E7DD;
+    color: #CA8E82;
 }
 
 body{
     background-color: #CA8E82;
     
 }
+
 .inner-container{
     background-color: #F2E7DD;
     padding: 20%;
-    width: 60%;
+    width: 50%;
+    margin: auto;
+}
+
+
+.description-container{
+    display: flex;
+    width: 50%;
     position: relative;
     
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
    
 }
 
 
 
-.outer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-}
 
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.outer-container{
+    display: block;
+    align-items: center;
+    margin: auto;     
 }
 
 blockquote{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:justify;
-    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-style: italic;
-    font-size: larger;
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: -55%;
+    left: 110px;
+    color:#D9B99F
 }
 
 .image{
@@ -109,8 +128,7 @@ blockquote{
     width: 30vw;
     height: 30vh;
     margin-left:auto;
-   margin-top: -120px;
-      
+   margin-top: -120px;    
 }
 
 .text{
@@ -124,4 +142,26 @@ blockquote{
 h2{
     text-align: center;
     color: white;
+}
+
+.portfolio-image{
+    width: 240px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    border: 4px solid #CA8E82;
+}
+
+.projects{
+    background-color: #F2E7DD;
+    padding: 0.5em
+    
+}
+
+.underline{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
